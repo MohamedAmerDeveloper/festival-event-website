@@ -1,0 +1,112 @@
+/*header*/
+header{
+    height:100vh;
+    background-image: url('../imgs/festival.jpg');
+    background-size: cover;
+    position: relative;
+    color: #fff;
+}
+header .navigator{
+    height: 100vh;
+    width: 250px;
+    background-color: gray;
+    left: -250px;
+    top: 0;
+    padding: 3rem;
+    z-index: 999;
+    transition: all 1s ease;
+}
+header .navigator i{
+    position: relative;
+    top:0;
+    left:135px;
+    cursor: pointer;
+    font-size: 2rem;
+}
+header .navigator a{
+    margin-top:3rem ;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: color 0.5s ease;
+    text-decoration: none;
+    color: #fff;
+}
+header .navigator a:hover{
+    color: rgba(255, 0, 0, 0.7);
+}
+header .over-lay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 0, 0, 0.7);
+    transition: all 1s ease;
+}
+header .the-head{
+   margin-top: 200px;
+
+}
+header .the-head .open-btn{
+   cursor: pointer;
+    font-size: 2rem;
+    margin-left: 20px;
+}
+/*start singers*/
+.content-carrier{
+    margin: auto;
+    width: 600px;
+}
+.content-carrier h2{
+    background-color: red;
+    margin: 0;
+    padding: 5px;
+    cursor: pointer;
+}
+.content-carrier p{
+    background-color: silver;
+    margin: 0;
+    padding: 5px;
+    display: none;
+}
+
+/*end singers*/
+
+/*start timer*/
+.timer{
+    position: relative;
+    background-color: rgba(255, 0, 0, 0.7);;
+    background-image: url('');
+    color: #fff;
+}
+.timer .tim{
+    padding: 50px;
+    border: 2px solid #fff;
+}
+
+/*end timer*/
+
+/*start juin-us*/
+.juin-us textarea{
+    height: 250px;
+}
+/*end juin-us*/
+
+/*start footer*/
+.social-media{
+    margin-top: 5rem;
+}
+.social-media i{
+   border: 1px solid black;
+   padding: 10px;
+   width:40px;
+   height: 40px;
+   text-align: center;
+}
+.social-media i:hover{
+    background-color: red;
+    color: #fff;
+    border: 1px solid #fff
+}
+
+/*end footer*/
